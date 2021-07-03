@@ -5,6 +5,10 @@ name: {
     type: String,
     maxlength: 50
 },
+password: {
+    type: String,
+    minlength: 5
+},
 email: {
     type: String,
     trim: true,
@@ -18,7 +22,9 @@ role: {
     type:Number,
     default: 0
 },
-image: String,
+image:{
+    type: String
+},
 token: {
     type: String
 },
